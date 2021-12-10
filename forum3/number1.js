@@ -1,9 +1,9 @@
 // forum 3 HCI
 //William Jonathan Mulyadi NIM: 2502045683
 // JavaScript Practice 1
-import readlineSync from "readline-sync"
-const blood = readlineSync.question("A+");
-const who = readlineSync.question("B+");
+import readlineSync from "readline-sync";
+const blood = readlineSync.question("What blood type are you?");
+const who = readlineSync.question("To Whom you want to donor your blood?");
 
 if (blood == "A+"){
     if ((who == "A+") || (who =="AB+")){
