@@ -7,5 +7,5 @@ Hi sir,<br>
 The number 1 is practice 1, title: "Blood Types"<br>
 For the number 1 : I used this link : https://www.vectorstock.com/royalty-free-vector/blood-donation-chart-recipient-and-donor-vector-23523010 ,<br>
 as a reference for the donation and recipient.<br>
-The number 2 is practice 2, title :"Digital Decipher"<br>
-The number 3 is practice 3, title: "Climbing stairs"<br>
+The number 2 is <b>practice 2</b>, title :"Digital Decipher"<br>
+  The number 3 is <b>practice 3</b>, title: "Climbing stairs"<br>
