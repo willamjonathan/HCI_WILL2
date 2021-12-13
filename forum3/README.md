@@ -8,4 +8,5 @@ The number 1 is <b>practice 1</b>, title: "Blood Types"<br>
 For the number 1 : I used this link : https://www.vectorstock.com/royalty-free-vector/blood-donation-chart-recipient-and-donor-vector-23523010 ,<br>
 as a reference for the donation and recipient.<br>
 The number 2 is <b>practice 2</b>, title :"Digital Decipher"<br>
-  The number 3 is <b>practice 3</b>, title: "Climbing stairs"<br>
+For number 2, i'm really sorry i couldn't find the right solution.<br>
+The number 3 is <b>practice 3</b>, title: "Climbing stairs"<br>
