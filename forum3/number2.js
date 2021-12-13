@@ -5,14 +5,8 @@ const myfunct = (eMess,key)=>{
     array = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
     c = eMess.length;
     let a= [];
-    let loop = 0
     let x = eMess.split("");
-    while ( c > 0){
-        a.push(x[1]);
-        loop++;
-        if (loop = c){
-            stop
         }
     }
 }
-//not finished i need more time
+//not finished i dont really understand about the task sorry
