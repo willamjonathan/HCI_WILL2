@@ -12,7 +12,7 @@ function climbing(z) {
     a[k - 2] = Math.min(z[k - 1] + z[k - 2], z[k - 2]);
 // stair only 1 
 	if (k == 1) { 
-        return dp[k - 1]; 
+        return a[k - 1]; 
     }
 //looping 
 	for (let i = k - 3; i >= 0; i--) {
