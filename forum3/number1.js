@@ -5,7 +5,7 @@ import readlineSync from "readline-sync";
 const blood = readlineSync.question("What blood type are you?");
 const who = readlineSync.question("To Whom you want to donor your blood?");
 
-var donateblood =(donor,receiver,result) =>{
+var donateblood =(blood,who) =>{
     if (blood == "A+"){
         if ((who == "A+") || (who =="AB+")){
             console.log(`canGiveBlood("${blood}","${who}") -> true`);
