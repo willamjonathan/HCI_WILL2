@@ -66,3 +66,4 @@ var donateblood =(donor,receiver,result) =>{
             console.log(`canGiveBlood("${blood}","${who}") -> false`);
         }
     }
+}
