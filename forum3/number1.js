@@ -5,63 +5,64 @@ import readlineSync from "readline-sync";
 const blood = readlineSync.question("What blood type are you?");
 const who = readlineSync.question("To Whom you want to donor your blood?");
 
-if (blood == "A+"){
-    if ((who == "A+") || (who =="AB+")){
+var donateblood =(donor,receiver,result) =>{
+    if (blood == "A+"){
+        if ((who == "A+") || (who =="AB+")){
+            console.log(`canGiveBlood("${blood}","${who}") -> true`);
+        }
+        else{
+            console.log(`canGiveBlood("${blood}","${who}") -> false`);
+        }
+    }
+    else if (blood =="A-"){
+        if((who == "A-") || (who == "A+") || (who =="AB-") || (who =="AB+")){
+            console.log(`canGiveBlood("${blood}","${who}") -> true`);
+        }
+        else{
+            console.log(`canGiveBlood("${blood}","${who}") -> false`);
+        }
+    }
+    else if (blood == "O+"){
+        if((who == "O+") || (who == "A+") || (who == "B+") || (who == "AB+")){
+            console.log(`canGiveBlood("${blood}","${who}") -> true`);
+        }
+        else{
+            console.log(`canGiveBlood("${blood}","${who}") -> false`);
+        }
+    }
+    //"O-" can give blood to anyone
+    else if (blood == "O-"){
         console.log(`canGiveBlood("${blood}","${who}") -> true`);
     }
-    else{
-        console.log(`canGiveBlood("${blood}","${who}") -> false`);
+    else if (blood == "B-"){
+        if((who == "B-") || (who == "B+") || (who =="AB-") || (who =="AB+")){
+            console.log(`canGiveBlood("${blood}","${who}") -> true`);
+        }
+        else{
+            console.log(`canGiveBlood("${blood}","${who}") -> false`);
+        }
     }
-}
-else if (blood =="A-"){
-    if((who == "A-") || (who == "A+") || (who =="AB-") || (who =="AB+")){
-        console.log(`canGiveBlood("${blood}","${who}") -> true`);
+    else if (blood == "B+"){
+        if((who == "B+") || (who =="AB+")){
+            console.log(`canGiveBlood("${blood}","${who}") -> true`);
+        }
+        else{
+            console.log(`canGiveBlood("${blood}","${who}") -> false`);
+        }
     }
-    else{
-        console.log(`canGiveBlood("${blood}","${who}") -> false`);
+    else if (blood == "AB-"){
+        if((who == "AB-") || (who == "AB+")){
+            console.log(`canGiveBlood("${blood}","${who}") -> true`);
+        }
+        else{
+            console.log(`canGiveBlood("${blood}","${who}") -> false`);
+        }
     }
-}
-else if (blood == "O+"){
-    if((who == "O+") || (who == "A+") || (who == "B+") || (who == "AB+")){
-        console.log(`canGiveBlood("${blood}","${who}") -> true`);
+    else if (blood == "AB+"){
+        if(who == "AB+"){
+            console.log(`canGiveBlood("${blood}","${who}") -> true`);
+        }
+        else{
+            console.log(`canGiveBlood("${blood}","${who}") -> false`);
+        }
     }
-    else{
-        console.log(`canGiveBlood("${blood}","${who}") -> false`);
-    }
-}
-//"O-" can give blood to anyone
-else if (blood == "O-"){
-        console.log(`canGiveBlood("${blood}","${who}") -> true`);
-}
-else if (blood == "B-"){
-    if((who == "B-") || (who == "B+") || (who =="AB-") || (who =="AB+")){
-        console.log(`canGiveBlood("${blood}","${who}") -> true`);
-    }
-    else{
-        console.log(`canGiveBlood("${blood}","${who}") -> false`);
-    }
-}
-else if (blood == "B+"){
-    if((who == "B+") || (who =="AB+")){
-        console.log(`canGiveBlood("${blood}","${who}") -> true`);
-    }
-    else{
-        console.log(`canGiveBlood("${blood}","${who}") -> false`);
-    }
-}
-else if (blood == "AB-"){
-    if((who == "AB-") || (who == "AB+")){
-        console.log(`canGiveBlood("${blood}","${who}") -> true`);
-    }
-    else{
-        console.log(`canGiveBlood("${blood}","${who}") -> false`);
-    }
-}
-else if (blood == "AB+"){
-    if(who == "AB+"){
-        console.log(`canGiveBlood("${blood}","${who}") -> true`);
-    }
-    else{
-        console.log(`canGiveBlood("${blood}","${who}") -> false`);
-    }
-}
